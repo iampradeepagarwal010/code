@@ -1,0 +1,5 @@
+proc export data=sashelp.class
+    outfile='c:\temp\sashelp class.csv'
+    dbms=csv
+    replace;
+run;
